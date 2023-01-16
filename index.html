@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Age Checker</h1>
+
+  <div class="content">
+    <div>
+      Year of birth <input type="text" name="yearsOld" id="yearsOld">
+    </div>
+    
+    <div class="genres">
+      Genre <input type="radio" name="radsex" id="genre"> Female
+      <input type="radio" name="radsex" id="genre"> Male 
+    </div>
+
+    <!-- <label class="genres">
+      <input type="radio" name="radsex" />
+       Female
+    </label>
+    
+    <label class="genres">
+      <input type="radio" name="radsex">
+       Male
+    </label> -->
+
+    <input type="button" value="Verify" onclick="verify()">
+
+    <div class="res">
+      <p>Preencha os dados acima para ver o resultado!</p>
+    </div>
+  </div>
+    
+    
+
+  <footer>
+    <p>&copy; RafaelIran</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
